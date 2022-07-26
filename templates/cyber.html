@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Textutils</title>
+    </head>
+    <body>
+        <h1>Welcome to TEXTUTILS.<br>
+        Please enter some text below.</h1>
+        <form action="analyze" method="get">
+            <textarea name="text" style="width: 1493px; height: 307px; font-size: 40px;"></textarea>
+                <div>
+                    <input type="radio" name="method" style="height: 20px; width:20px;" id="removepunc" value="removepunc">
+                    <label for="removepunc" style="font-size: 20px;">Remove Punctuations</label>
+                </div><br>
+                <div>
+                    <input type="radio" name="method" style="height: 20px; width:20px;" id="capitalize" value="capitalize">
+                    <label for="capitalize" style="font-size: 20px;">Capitalize</label>
+                </div><br>
+                <div>
+                    <input type="radio" name="method" style="height: 20px; width:20px;" id="minimize" value="minimize">
+                    <label for="minimize" style="font-size: 20px;">Minimize</label>
+                </div><br>
+                <div>
+                    <input type="radio" name="method" style="height: 20px; width:20px;" id="removespace" value="removespace">
+                    <label for="removespace" style="font-size: 20px;">Remove Extra Space</label>
+                </div><br>
+            <button type="submit" style="padding: auto; font-size: 40px;" >Analyse Text</button>
+        </form>
+    </body>
+</html>
